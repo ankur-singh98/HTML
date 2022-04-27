@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#outer{
+    height: 1000px;
+    width: 100%;
+}
+#top_menu
+{
+    
+    display: flex;
+
+    height: 80px;
+  
+}
+
+
+#sub_m{
+    display: flex;
+
+margin-left: 78%;
+
+}
+
+#bur{
+ display: none;
+    
+} 
+
+
+#logo{
+margin-left: 10%;
+
+
+}
+#menu{
+
+    padding-top:  20px;
+    margin-left: 35%;
+
+}
+
+
+#menu ul li{
+    text-decoration: none;
+display: inline;
+padding-left: 20px;
+}
+
+    #img{
+        width: 100%;
+    height: 400px;
+        background-image: url("inno.jpg");
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+    }
+#img h1{
+    text-align: center;
+    padding-top: 40px;
+ 
+    color: aliceblue;
+}
+#img p{
+    text-align: center;
+
+    font-size: large;
+    color: aliceblue;
+}
+#part
+{
+    display: flex;  
+    width: 100%;
+   height: 400px;
+}
+.m{
+    width: 33%;
+}
+#part img
+{
+    width: 100%;
+}
+#part p
+{
+    color: blue;
+}
+.a{
+    background: blue;
+
+}
+.b{
+    background: skyblue;
+    
+}
+#ham{
+    padding-top:  18px;
+    height: 20px;
+ width:30px;
+}
+                                                  /* tablet view  */
+
+@media screen and (max-width:1200px)
+{
+    #top_menu
+    {
+        display: flex;
+    }
+    #sub_m{
+        display: flex;
+        margin-left:0%;
+
+}
+   
+
+
+    #sub_m button{
+    width: 33%;
+    }
+#menu
+{
+    display: none;
+
+}
+#bur
+{
+ display: inline;
+ height: 30px;
+ width:40px;
+ padding-top: 18px;
+   
+} 
+
+#ham{
+ margin-left: 60%;
+ height: 30px;
+ width:40px;
+}
+#part 
+{
+
+    display: flex;
+   /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+.m{
+    width: 50%;
+}
+
+#part img
+{
+    width: 100%;
+}
+}
+
+
+@media screen and (max-width:472px) {
+    
+    #part
+{
+    display: flex;  
+}
+.m{
+    width: 100%;
+}
+#part 
+{
+
+    display: flex;
+   /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+
+#ham{
+ margin-left: 45%;
+ height: 30px;
+ width:40px;
+}
+}
+
+#footer{
+    background: blue;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color: white;
+    display: flex;
+    height: 50px;
+}
+#footer img{
+width:20px;
+height: 20px;
+justify-content: center;
+}

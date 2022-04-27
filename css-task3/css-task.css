@@ -1,0 +1,150 @@
+input:hover,input:focus{
+background: gray;
+border:solid black;
+}
+select:hover{
+    background: gray;
+    border:solid black;
+    }
+ul{
+    list-style-image: url(ankh-solid.svg);
+line-height:40px;
+}
+ .main{
+      border-collapse: separate;
+  border-radius: 10px;
+  border :2px solid e0e3e5 ;
+  width: 50%;
+    }
+    tr.header{
+        text-align: center;
+font-weight: bold;
+border-left: solid black 1px;
+border-bottom: solid black 2px;
+padding: 10px;
+
+    }
+.dl{
+background: rgb(95, 179, 235);
+    } 
+    th.header {
+background: #4395e8;
+text-align: center;
+font-weight: bold;
+border-left: solid black 1px;
+border-bottom: solid black 2px;
+border-radius: 0px;
+padding:10px;
+color: aliceblue;
+text-shadow:1px 2px
+
+}
+th.header1 {
+background: #4395e8;
+text-align: center;
+font-weight: bold;
+border-bottom: solid black 2px;
+border-radius: 0px;
+padding: 10px;
+}
+th.header2 {
+/* background: #c7d3db; */
+text-align: center;
+font-weight: bold;
+
+border-top: solid black 1px;
+border-radius: 0px;
+padding: 10px;
+}
+th.header21 {
+background:  #aeb8bf;
+text-align: center;
+font-weight: bold;
+
+border-top: solid black 1px;
+border-radius: 0px;
+padding: 10px;
+}
+
+
+th.header2l {
+background: #c7d3db;
+text-align: center;
+font-weight: bold;
+border-radius: 0 0 0 5px;
+
+border-top: solid black 1px;
+padding: 10px;
+}
+
+
+
+td.dl {
+text-align: center;
+border-left: solid black 1px;
+border-top: solid black 1px;
+padding: 10px;
+
+}
+.dl_b{
+    text-align: center;
+    border-left: solid black 1px;
+    border-top: solid black 1px;
+    padding: 10px;
+    background: #c7d3db;  
+}
+
+td.dl1 {
+text-align: center;
+border-left: solid black 1px;
+border-top: solid black 1px;
+padding: 10px;
+background: #aeb8bf;
+}
+td.dll {
+text-align: center;
+border-left: solid black 1px;
+border-top: solid black 1px;
+padding: 10px;
+background: #c7d3db;
+border-radius: 0 0 5px 0;
+/* border:0px #a1dde0; */
+}
+th.header1{
+border-radius: 5px 0 0 0;
+}
+td.dl:first-child,
+th.header1:first-child {
+border-left: none;
+}
+
+th.header:last-child {
+border-radius: 0 5px 0 0;
+}
+td.dl:first-child,
+th.header1:first-child {
+border-left: none;
+}
+tr.dl,th.header2,td.dl{
+border-collapse: collapse;
+}
+
+#b{
+color:white;
+background: green;
+border-radius: 5px;
+margin-left: 430px;
+height: 30px;
+width: 70px;
+}
+fieldset{
+height: 250px;
+width: 500px;
+}
+#b:hover{
+
+background-color: white;
+color:black;
+
+}
+

@@ -1,0 +1,433 @@
+
+
+    *{
+        margin:0px;
+        padding: 0px;
+    }
+    #head{
+        height: 80px;
+        max-width: 1370;
+        background: white;
+        margin-top: 10px;
+    }
+    #menu{
+        height: 80px;
+        width: 500px;
+        float: left;
+     
+    }
+    #social{
+        height: 70px;
+        width: 190px;
+        float: left;
+    
+       
+     
+    }
+    #name{
+        height: 80px;
+        width: 600px;
+        float:left;
+        margin-left: 60px;
+        padding-top: 10px;
+        
+    }
+    #menu ul {
+        display: flex;
+        padding: 10px;
+    }
+    #menu ul li{
+        list-style-type: none;
+        padding: 10px;
+    }
+    #menu ul li a{
+        text-decoration: none;
+        color:  black;
+        font-size: 20px;
+    }
+    
+    .im{
+        margin-top: 5px;
+        height: 40px;
+        width: 40px;
+        padding: 8px;
+    }
+    #soft{
+        font: 20px Arial, sans-serif;
+        color:cornflowerblue;
+        font-family: "Times New Roman", Times, serif;
+    
+    }
+    #n
+    {
+        font: 20px Arial, sans-serif;
+        font-weight: bold;
+        font-family: "Times New Roman", Times, serif; 
+    }
+    #info{
+        height: 600px;
+        width:1370px;
+        background: black;
+        display: flex;
+    }
+    
+    .blank{
+        height: 600px;
+        width:80px;
+        background: black;
+        
+    }
+    .blank6{
+        height: 600px;
+        width:80px;
+        background: white;
+        
+    }
+    #info1{
+        height: 600px;
+        width:600px;
+      
+    }
+    #info2{
+        height: 600px;
+        width:600px;
+    
+    }
+    
+    .gap
+    {
+        height: 150px;
+        width:600px;
+    
+    }
+    #text{
+        height: 300px;
+        width:600px;
+    }
+    
+    .g
+    {
+        height: 100px;
+        width:600px;
+    
+    }
+    #te{
+        height: 400px;
+        width:600px;
+      
+    }
+    #te img{
+        border-radius: 150px;
+    }
+    #text p:first-child{
+        color: skyblue;
+        font-size: 25px;
+    }
+    
+    #ank{
+        color:white;
+        font-size: 55px;
+        font-family: "Times New Roman", Times, serif;
+    }
+    #full{
+        font-family: "Lucida Console", "Courier New", monospace;
+        color:white;
+        font-size: 25px;
+    }
+    #btn{
+        background: cadetblue;
+        padding: 15px;
+        border-radius: 25px;
+        font-size: 20px;
+      
+    
+    }
+    #btn a{
+        text-decoration: none;
+        color: white;
+    }
+    #btn:hover{
+       padding: 18px;
+      
+    }
+    #talk{
+       
+        background: black;
+        padding: 15px;
+        border-radius: 25px;
+        font-size: 20px;
+        color: white;
+    
+    }
+    #talk a{
+        text-decoration: none;
+        color: white;
+    }
+    #talk:hover{
+        background: #00B4E8;
+        padding: 18px;
+    }
+    #work{
+        display: flex;
+        height: 600px;
+        width:1370px;
+    }
+    
+    #t{
+        height: 400px;
+        width:1210px;
+        background: white;
+      
+    }
+    #t1{
+        height: 50px;
+        width:1210px;
+        font-size: 25px;
+        color:#00B4E8;
+        text-align:center;
+       padding-top: 20px;
+        
+    
+    }
+    #t2{
+        height: 80px;
+        width:1210px;
+        font-weight: bold;
+        color: black;
+        font-size: 35px;
+        padding-top: 15px;
+        text-align: center;
+    }
+    #photo{
+        display: flex;
+        height: 400px;
+        width:1210px;
+    }
+    .a{
+     
+        height: 300px;
+        width:350px;
+      border: 2px black;
+        padding: 20px;
+        background-image: url("pro2.jpg");
+        background-size: 300px 300px;
+     background-repeat: no-repeat;
+     margin-left: 40px;
+    }
+    .b{
+     
+     height: 300px;
+     width:350px;
+    border: 2px black;
+     padding: 30px;
+     background-image: url("pro1.png");
+     background-size: 300px 300px;
+     background-repeat: no-repeat;
+    
+    }
+    .c{
+     
+     height: 300px;
+     width:350px;
+    border: 2px black;
+     padding: 20px;
+     background-image: url("pro.jpeg");
+     background-size: 300px 300px;
+     background-repeat: no-repeat;
+    }
+     .a .hid{
+         visibility: hidden;
+         text-align: center;
+      
+         color: white;
+         margin-left: 30px;
+       
+         margin-top: 130px;
+         font-size: 30px;
+     }
+     .b .hid1{
+         visibility: hidden;
+         text-align: center;
+         color:blue;
+         margin-left: 30px;
+       
+         margin-top: 130px;
+         font-size: 30px;
+     }
+     .c .hid2{
+         visibility: hidden;
+         text-align: center;
+         color: white;
+         margin-left: 30px;
+       
+         margin-top: 130px;
+         font-size: 30px;
+     }
+     .a:hover .hid{
+        visibility: visible;
+     }
+     .b:hover .hid1{
+        visibility: visible;
+     }
+     .c:hover .hid2{
+        visibility: visible;
+     }
+     #con{
+        height: 80px;
+        width:1210px;
+        font-weight: bold;
+        color: black;
+        font-size: 35px;
+        padding-top: 15px;
+        text-align: center;
+     }
+    
+     .form1{
+         height :200px;
+         width:200px; 
+         float: left;
+     }
+     .form{
+         height :200px;
+         width:810px; 
+         float: left;
+     }
+     #tab{
+         margin-left: 70px;
+         padding: 20px;
+     }
+     table td {
+         padding: 10px;
+         font-weight: 900;
+     }
+     .td{
+         height: 30px;
+         width: 300px;
+     }
+     button.bt{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: black;
+    font-weight: 900;
+    border-radius: 20px;
+     }
+     .bt:hover{
+        background: #00B4E8;
+        padding: 18px;
+        width: 140px;
+        height: 50px;
+    }
+    #a_word{
+        font-weight: 900px;
+       
+     
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    
+    }
+    #work1{
+        display: flex;
+        height: 400px;
+        width:1370px;
+    }
+    .blank3{
+        height: 400px;
+        width:80px;
+        background: black;
+        
+    }
+    #img{
+        height: 400px;
+        width:420px;
+        margin-top: 15px;
+        float: left;
+    }
+    #about{
+        height: 400px;
+        width:710px;
+       
+        float: left;
+    }
+    .ui{
+        color: #00B4E8;
+    }
+    #abc{
+        text-align: justify;
+    }
+    #mar{
+        margin-left: 15px;
+        list-style-type: square;
+        padding: 10px;
+    }
+    .w{
+        padding: 5px;
+      
+    }
+    #im{
+        height: 200px;
+        width:420px;
+      margin-left: 20px;
+        float: left;
+    }
+    #abou{
+        height: 200px;
+        width:710px;
+       
+        float: left;
+    }
+    .prof{
+       font-size: 25px;
+    }
+    
+    #tech{
+        padding: 10px;
+    }
+    #tech li{
+        padding: 5px;
+    }
+    #work2{
+        
+        height: 300px;
+        width:1370px;
+    
+    }
+    .location{
+        
+        height: 300px;
+        width:580px;
+        background-color: black;
+        float: left;
+    }
+    .links{
+       
+        height: 300px;
+        width:650;
+        background-color: black;
+        float: left;
+    }.blank_e{
+      
+        height: 300px;
+        width:70px;
+        background-color: black;
+        float: left;
+    }
+    #text_loc{
+    font-size: 40px;
+    color: white;
+    }
+    #tex_loc{
+    
+    color: white;
+    }
+    .links ul li {
+        color: white;
+        padding: 10px;
+    }
+    .links ul li a{
+    text-decoration: none;
+    color: white;
+    }
+    
+           
